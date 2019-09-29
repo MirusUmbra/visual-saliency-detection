@@ -3,6 +3,7 @@
 
 基于谱残差/余谱理论的显著性检测, 其实就是频域上由对数谱减去平滑曲线.  
 据作者的理论与人类视觉预处理阶段有异曲同工之处, 通过观察大量自然图像的对数谱发现其分布较为一致, 现在通过某种算法或者先验信息给出其分布, 再用log谱减去该分布所得到的奇点即为显著点.  
+算法简单快速而有效, 经过调整后可以用于数据筛选等用处.  
 based on [Saliency detection: A spectral residual approach](https://www.researchgate.net/profile/Liqing_Zhang3/publication/221364530_Saliency_Detection_A_Spectral_Residual_Approach/links/55b497f208ae092e9653c2bc.pdf)</br>
 
 My result :  
